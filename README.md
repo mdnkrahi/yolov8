@@ -1,8 +1,33 @@
 # Install YOLOv8 Inside Docker Container
 
+## Super user
+```sh 
+sudo su
+```
+
+## system update 
+```sh 
+apt update
+```
+
+## Install docker
+```sh 
+apt install docker.io -y
+```
+
+## Git clone
+
+```sh 
+git clone https://github.com/mdnkrahi/yolov8.git
+```
+## Change directory
+```sh 
+cd yolov8
+```
+
 ## Run Docker image
 
-Run command to create Docker image:
+### Run command to create Docker image:
 ```sh 
 docker build -t yolov8 .
 ```
