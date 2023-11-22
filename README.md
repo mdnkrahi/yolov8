@@ -22,7 +22,7 @@ git clone https://github.com/mdnkrahi/yolov8.git
 ```
 ## Change directory
 ```sh 
-cd yolov8
+mv yolov8/Dockerfile Dockerfile && rm -r yolov8
 ```
 
 ## Run Docker image
