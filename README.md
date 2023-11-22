@@ -17,7 +17,7 @@ mkdir -p ~/yolov8/inputs
 
 ### Download sample image:
 ```sh
- curl -o ~/yolov8/inputs/test.jpg https://raw.githubusercontent.com/rdcolema/tensorflow-image-classification/master/cat.jpg 
+ curl -o ~/yolov8/inputs/test.jpg https://raw.githubusercontent.com/mdnkrahi/yolov8/main/cat.jpg 
  ```
 
 ## Run the following commands in YOLOv8 container to perform required task:
