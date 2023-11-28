@@ -12,7 +12,11 @@ pipeline {
           }
      }
      steps {
-          sh 'apt-get update \ && apt-get install --no-install-recommends -y  \ libgl1-mesa-glx libglib2.0-0 python3 python3-pip \ && pip3 install ultralytics \ && rm -rf /var/lib/apt/lists/*'
+          sh 'apt-get update \
+    && apt-get install --no-install-recommends -y  \
+        libgl1-mesa-glx libglib2.0-0 python3 python3-pip \
+    && pip3 install ultralytics \
+    && rm -rf /var/lib/apt/lists/*'
      }
 	}
 }
