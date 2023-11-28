@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('clone') {
             steps {
-                sh 'ls'
+                sh 'pwd'
             }
         }
     }
